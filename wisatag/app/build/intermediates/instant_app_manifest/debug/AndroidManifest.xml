@@ -35,8 +35,6 @@
         <activity android:name="com.example.wisatag.activities.KulinerActivity" />
         <activity android:name="com.example.wisatag.activities.AlamActivity" />
         <activity android:name="com.example.wisatag.activities.BudayaActivity" />
-        <activity android:name="com.example.wisatag.activities.DetailLamaActivity" />
-        <activity android:name="com.example.wisatag.activities.LamaActivity" />
         <activity android:name="com.example.wisatag.activities.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

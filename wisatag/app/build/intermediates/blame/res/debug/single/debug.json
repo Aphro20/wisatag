@@ -28,20 +28,20 @@
         "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
-        "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout\\abc_tooltip.xml"
-    },
-    {
         "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
+        "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout\\abc_tooltip.xml"
     },
     {
         "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
@@ -108,10 +108,6 @@
         "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\color\\material_on_primary_disabled.xml"
     },
     {
-        "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_list_lama.xml.flat",
-        "source": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\src\\main\\res\\layout\\item_list_lama.xml"
-    },
-    {
         "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat",
         "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
@@ -124,12 +120,12 @@
         "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\color\\mtrl_btn_text_color_selector.xml"
     },
     {
-        "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\layout_text_view_with_theme_line_height.xml.flat",
-        "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\text_view_with_theme_line_height.xml"
-    },
-    {
         "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility_off.png.flat",
         "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\layout_text_view_with_theme_line_height.xml.flat",
+        "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\text_view_with_theme_line_height.xml"
     },
     {
         "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\layout_text_view_without_line_height.xml.flat",
@@ -1000,10 +996,6 @@
         "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_lama.xml.flat",
-        "source": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\src\\main\\res\\layout\\activity_lama.xml"
-    },
-    {
         "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
@@ -1242,10 +1234,6 @@
     {
         "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detail_lama.xml.flat",
-        "source": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\src\\main\\res\\layout\\activity_detail_lama.xml"
     },
     {
         "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_bottom_navigation_item_background.xml.flat",

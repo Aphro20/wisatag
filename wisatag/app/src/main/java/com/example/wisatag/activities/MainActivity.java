@@ -75,8 +75,6 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.onSel
     }
 
     private void setMenu() {
-        mdlMainMenu = new ModelMain("Wisata Lama", R.drawable.ic_destination);
-        lsMainMenu.add(mdlMainMenu);
         mdlMainMenu = new ModelMain("Wisata Alam", R.drawable.ic_destination);
         lsMainMenu.add(mdlMainMenu);
         mdlMainMenu = new ModelMain("Wisata Budaya", R.drawable.ic_komunitas);
@@ -92,9 +90,6 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.onSel
     @Override
     public void onSelected(ModelMain mdlMain) {
         switch (mdlMain.getTxtName()) {
-            case "Wisata Lama":
-                startActivityForResult(new Intent(MainActivity.this, LamaActivity.class), 1);
-                break;
             case "Wisata Alam":
                 startActivityForResult(new Intent(MainActivity.this, AlamActivity.class), 1);
                 break;

@@ -1608,7 +1608,6 @@ id ifRoom
 id image
 id imgKuliner
 id imgMainData
-id imgWisata
 id info
 id invisible
 id italic
@@ -1770,13 +1769,9 @@ id transition_scene_layoutid_cache
 id transition_transform
 id tvAlamat
 id tvDate
-id tvDescWisata
 id tvDeskripsi
-id tvKategori
 id tvMainData
 id tvNama
-id tvNamaWisata
-id tvWisata
 id unchecked
 id uniform
 id unlabeled
@@ -1849,9 +1844,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_detail_lama
 layout activity_detail_wisata
-layout activity_lama
 layout activity_main
 layout activity_wisata
 layout custom_dialog
@@ -1873,7 +1866,6 @@ layout design_text_input_start_icon
 layout header_main
 layout item_grid_main
 layout item_list
-layout item_list_lama
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
