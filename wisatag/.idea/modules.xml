@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wisaTAG.iml" filepath="$PROJECT_DIR$/.idea/modules/wisaTAG.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/wisaTAG.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/wisaTAG.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="wisaTAG/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/wisaTAG.iml" filepath="$PROJECT_DIR$/.idea/modules/wisaTAG.iml" group="wisaTAG" />
     </modules>
   </component>
 </project>

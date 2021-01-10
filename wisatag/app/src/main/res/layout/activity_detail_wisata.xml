@@ -45,7 +45,7 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:id="@+id/imgWisata"
+                        android:id="@+id/imgKuliner"
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
                         android:scaleType="fitXY" />
@@ -78,7 +78,7 @@
                             android:layout_margin="10dp">
 
                             <ImageView
-                                android:id="@+id/ivNamaWisata"
+                                android:id="@+id/ivNama"
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_alignParentStart="true"
@@ -88,7 +88,7 @@
                                 android:tint="@android:color/white" />
 
                             <TextView
-                                android:id="@+id/tvNamaWisata"
+                                android:id="@+id/tvNama"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"
@@ -104,7 +104,7 @@
                             android:layout_margin="10dp">
 
                             <ImageView
-                                android:id="@+id/ivDescWisata"
+                                android:id="@+id/ivAlamat"
                                 android:layout_width="40dp"
                                 android:layout_height="40dp"
                                 android:layout_alignParentStart="true"
@@ -114,7 +114,33 @@
                                 android:tint="@android:color/white" />
 
                             <TextView
-                                android:id="@+id/tvDescWisata"
+                                android:id="@+id/tvAlamat"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:layout_marginStart="20dp"
+                                android:layout_toEndOf="@+id/ivDescWisata"
+                                android:textSize="14sp" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp">
+
+                            <ImageView
+                                android:id="@+id/ivDeskripsi"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_alignParentStart="true"
+                                android:background="@drawable/bg_circle_radius_primary"
+                                android:padding="10dp"
+                                android:src="@drawable/ic_dtl_desc"
+                                android:tint="@android:color/white" />
+
+                            <TextView
+                                android:id="@+id/tvDeskripsi"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"

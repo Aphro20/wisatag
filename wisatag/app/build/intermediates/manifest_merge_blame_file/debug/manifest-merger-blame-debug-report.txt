@@ -6,101 +6,113 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml
+8-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml
+9-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:5:22-64
+11-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-12-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:6:5-81
-12-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:6:22-78
+12-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:6:5-81
+12-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:6:22-78
 13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-13-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:7:5-79
-13-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:7:22-76
+13-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:7:5-79
+13-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:7:22-76
 14
 15    <!-- Include required permissions for Google Maps API to run. -->
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
-16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
 17
 18    <uses-feature
-18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 19        android:glEsVersion="0x00020000"
-19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
 20        android:required="true" />
-20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 21
 22    <application
-22-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:9:5-33:19
+22-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:9:5-37:19
 23        android:allowBackup="true"
-23-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:10:9-35
+23-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:10:9-35
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+24-->[androidx.core:core:1.1.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
 25        android:debuggable="true"
 26        android:icon="@mipmap/ic_launcher"
-26-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:11:9-43
+26-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:11:9-43
 27        android:label="@string/app_name"
-27-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:12:9-41
+27-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:12:9-41
 28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:13:9-54
+28-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:13:9-54
 29        android:supportsRtl="true"
-29-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:14:9-35
+29-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:14:9-35
 30        android:testOnly="true"
 31        android:theme="@style/AppTheme"
-31-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:15:9-40
+31-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:15:9-40
 32        android:usesCleartextTraffic="true" >
-32-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:16:9-44
+32-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:16:9-44
 33        <activity android:name="com.example.wisatag.activities.DetailWisataActivity" />
-33-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:17:9-69
-33-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:17:19-66
-34        <activity android:name="com.example.wisatag.activities.WisataActivity" />
-34-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:18:9-63
-34-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:18:19-60
-35        <activity android:name="com.example.wisatag.activities.MainActivity" >
-35-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:19:9-25:20
-35-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:19:19-58
-36            <intent-filter>
-36-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:20:13-24:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:21:17-69
-37-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:21:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:23:17-77
-39-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:23:27-74
-40            </intent-filter>
-41        </activity>
+33-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:17:9-78
+33-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:17:19-66
+34        <activity android:name="com.example.wisatag.activities.KulinerActivity" />
+34-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:18:9-73
+34-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:18:19-61
+35        <activity android:name="com.example.wisatag.activities.AlamActivity" />
+35-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:19:9-70
+35-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:19:19-58
+36        <activity android:name="com.example.wisatag.activities.BudayaActivity" />
+36-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:20:9-72
+36-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:20:19-60
+37        <activity android:name="com.example.wisatag.activities.DetailLamaActivity" />
+37-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:21:9-67
+37-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:21:19-64
+38        <activity android:name="com.example.wisatag.activities.LamaActivity" />
+38-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:22:9-61
+38-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:22:19-58
+39        <activity android:name="com.example.wisatag.activities.MainActivity" >
+39-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:23:9-29:20
+39-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:23:19-58
+40            <intent-filter>
+40-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:24:13-28:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:25:17-69
+41-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:25:25-66
 42
-43        <meta-data
-43-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:27:9-29:69
-44            android:name="com.google.android.gms.version"
-44-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:28:13-58
-45            android:value="@integer/google_play_services_version" />
-45-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:29:13-66
-46        <meta-data
-46-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:30:9-32:51
-47            android:name="com.google.android.geo.API_KEY"
-47-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:31:13-58
-48            android:value="Google Maps API KEY" />
-48-->C:\Users\ASUS\Downloads\WisataPurwakarta-master\WisataPurwakarta-master\WisataPurwakarta\app\src\main\AndroidManifest.xml:32:13-48
-49        <!-- Needs to be explicitly declared on P+ -->
-50        <uses-library
-50-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
-51            android:name="org.apache.http.legacy"
-51-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
-52            android:required="false" />
-52-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
-53
-54        <activity
-54-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-55            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-55-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-56            android:exported="false"
-56-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-57            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-57-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-58    </application>
-59
-60</manifest>
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:27:17-77
+43-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:27:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <meta-data
+47-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:31:9-33:69
+48            android:name="com.google.android.gms.version"
+48-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:32:13-58
+49            android:value="@integer/google_play_services_version" />
+49-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:33:13-66
+50        <meta-data
+50-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:34:9-36:51
+51            android:name="com.google.android.geo.API_KEY"
+51-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:35:13-58
+52            android:value="Google Maps API KEY" />
+52-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:36:13-48
+53        <!-- Needs to be explicitly declared on P+ -->
+54        <uses-library
+54-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+55            android:name="org.apache.http.legacy"
+55-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+56            android:required="false" />
+56-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+57
+58        <activity
+58-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+59            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+59-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+60            android:exported="false"
+60-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+61-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+62    </application>
+63
+64</manifest>

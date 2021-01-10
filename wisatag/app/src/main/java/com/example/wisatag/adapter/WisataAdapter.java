@@ -17,10 +17,6 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 import java.util.List;
 
-/**
- * Created by Azhar Rivaldi on 22-12-2019.
- */
-
 public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder> {
 
     private List<ModelWisata> items;
@@ -39,7 +35,7 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_list_wisata, parent, false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_list, parent, false);
         return new ViewHolder(v);
     }
 
@@ -49,12 +45,11 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
 
         //Get Image
         Glide.with(mContext)
-                .load(data.getGambarWisata())
+                .load("http://180.246.49.244:8000/" + data.getPath())
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .into(holder.imgWisata);
+                .into(holder.imgKuliner);
 
-        holder.tvKategori.setText(data.getKategoriWisata());
-        holder.tvWisata.setText(data.getTxtNamaWisata());
+        holder.tvNama.setText(data.getNama());
         holder.cvWisata.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -71,17 +66,15 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
     //Class Holder
     class ViewHolder extends RecyclerView.ViewHolder {
 
-        public TextView tvKategori;
-        public TextView tvWisata;
+        public TextView tvNama;
         public CardView cvWisata;
-        public ImageView imgWisata;
+        public ImageView imgKuliner;
 
         public ViewHolder(View itemView) {
             super(itemView);
             cvWisata = itemView.findViewById(R.id.cvWisata);
-            tvWisata = itemView.findViewById(R.id.tvWisata);
-            tvKategori = itemView.findViewById(R.id.tvKategori);
-            imgWisata = itemView.findViewById(R.id.imgWisata);
+            tvNama = itemView.findViewById(R.id.tvNama);
+            imgKuliner = itemView.findViewById(R.id.imgKuliner);
         }
     }
 

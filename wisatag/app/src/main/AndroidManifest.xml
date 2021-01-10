@@ -14,8 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".activities.DetailWisataActivity" />
-        <activity android:name=".activities.WisataActivity" />
+        <activity android:name=".activities.DetailWisataActivity"></activity>
+        <activity android:name=".activities.KulinerActivity"></activity>
+        <activity android:name=".activities.AlamActivity"></activity>
+        <activity android:name=".activities.BudayaActivity"></activity>
+        <activity android:name=".activities.DetailLamaActivity" />
+        <activity android:name=".activities.LamaActivity" />
         <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

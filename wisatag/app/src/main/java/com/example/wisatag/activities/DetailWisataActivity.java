@@ -1,33 +1,25 @@
 package com.example.wisatag.activities;
 
-import android.os.Bundle;
-import android.view.MenuItem;
-import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.androidnetworking.AndroidNetworking;
-import com.androidnetworking.common.Priority;
-import com.androidnetworking.error.ANError;
-import com.androidnetworking.interfaces.JSONObjectRequestListener;
-import com.example.wisatag.R;
-import com.example.wisatag.api.Api;
-import com.example.wisatag.model.ModelWisata;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.MenuItem;
+import android.widget.ImageView;
+import android.widget.TextView;
+
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-
-import org.json.JSONException;
-import org.json.JSONObject;
+import com.example.wisatag.R;
+import com.example.wisatag.model.ModelWisata;
 
 public class DetailWisataActivity extends AppCompatActivity {
 
     Toolbar tbDetailWisata;
-    TextView tvNamaWisata, tvDescWisata;
-    ImageView imgWisata;
-    String idWisata, NamaWisata, Desc;
+    TextView tvNama, tvDeskripsi, tvAlamat;
+    ImageView imgKuliner;
+    String id, Nama, Deskripsi, Alamat;
     ModelWisata modelWisata;
 
     @Override
@@ -36,63 +28,36 @@ public class DetailWisataActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail_wisata);
 
         tbDetailWisata = findViewById(R.id.tbDetailWisata);
-        tbDetailWisata.setTitle("Detail Wisata");
+        tbDetailWisata.setTitle("Detail Wisata Kuliner");
         setSupportActionBar(tbDetailWisata);
         assert getSupportActionBar() != null;
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         modelWisata = (ModelWisata) getIntent().getSerializableExtra("detailWisata");
         if (modelWisata != null) {
-            idWisata = modelWisata.getIdWisata();
-            NamaWisata = modelWisata.getTxtNamaWisata();
+            id = modelWisata.getId().toString();
+            Nama = modelWisata.getNama();
+            Alamat = modelWisata.getAlamat();
+            Deskripsi = modelWisata.getDeskripsi();
 
             //set Id
-            imgWisata = findViewById(R.id.imgWisata);
-            tvNamaWisata = findViewById(R.id.tvNamaWisata);
-            tvDescWisata = findViewById(R.id.tvDescWisata);
+            imgKuliner = findViewById(R.id.imgKuliner);
+            tvNama = findViewById(R.id.tvNama);
+            tvAlamat = findViewById(R.id.tvAlamat);
+            tvDeskripsi = findViewById(R.id.tvDeskripsi);
+
+            //set text
+            tvNama.setText(Nama);
+            tvAlamat.setText(Alamat);
+            tvDeskripsi.setText(Deskripsi);
 
             //get Image
             Glide.with(this)
-                    .load(modelWisata.getGambarWisata())
+                    .load("http://180.246.49.244:8000/" + modelWisata.getPath())
                     .diskCacheStrategy(DiskCacheStrategy.ALL)
-                    .into(imgWisata);
+                    .into(imgKuliner);
 
-            getDetailWisata();
         }
-    }
-
-    private void getDetailWisata() {
-        AndroidNetworking.get(Api.DetailWisata)
-                .addPathParameter("id", idWisata)
-                .setPriority(Priority.HIGH)
-                .build()
-                .getAsJSONObject(new JSONObjectRequestListener() {
-                    @Override
-                    public void onResponse(JSONObject response) {
-                        for (int i = 0; i < response.length(); i++) {
-                            try {
-
-                                NamaWisata = response.getString("nama");
-                                Desc = response.getString("deskripsi");
-
-                                //set Text
-                                tvNamaWisata.setText(NamaWisata);
-                                tvDescWisata.setText(Desc);
-
-                            } catch (JSONException e) {
-                                e.printStackTrace();
-                                Toast.makeText(DetailWisataActivity.this,
-                                        "Gagal menampilkan data!", Toast.LENGTH_SHORT).show();
-                            }
-                        }
-                    }
-
-                    @Override
-                    public void onError(ANError anError) {
-                        Toast.makeText(DetailWisataActivity.this,
-                                "Tidak ada jaringan internet!", Toast.LENGTH_SHORT).show();
-                    }
-                });
     }
 
     @Override
