@@ -13,6 +13,7 @@ import android.text.format.DateFormat;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.wisatag.R;
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.onSel
     List<ModelMain> lsMainMenu = new ArrayList<>();
     TextView tvToday;
     String hariIni;
+    Button Upload_Wisata;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +53,7 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.onSel
             getWindow().setStatusBarColor(Color.TRANSPARENT);
         }
 
+        Upload_Wisata = findViewById(R.id.uploadwisata);
         tvToday = findViewById(R.id.tvDate);
         rvMainMenu = findViewById(R.id.rvMainMenu);
         GridLayoutManager mLayoutManager = new GridLayoutManager(this, 1,
@@ -65,6 +68,13 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.onSel
         hariIni = (String) DateFormat.format("EEEE", dateNow);
         getToday();
         setMenu();
+
+        Upload_Wisata.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, UploadActivity.class));
+            }
+        });
     }
 
     private void getToday() {

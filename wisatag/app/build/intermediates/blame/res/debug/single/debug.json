@@ -28,20 +28,20 @@
         "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
-        "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
-    },
-    {
         "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
         "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\layout\\abc_tooltip.xml"
     },
     {
-        "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+        "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
+        "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
@@ -120,12 +120,12 @@
         "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\color\\mtrl_btn_text_color_selector.xml"
     },
     {
-        "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility_off.png.flat",
-        "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
-    },
-    {
         "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\layout_text_view_with_theme_line_height.xml.flat",
         "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\text_view_with_theme_line_height.xml"
+    },
+    {
+        "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
     },
     {
         "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\layout_text_view_without_line_height.xml.flat",
@@ -2270,6 +2270,10 @@
     {
         "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml.flat",
         "source": "C:\\Users\\Ismail\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_upload.xml.flat",
+        "source": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\src\\main\\res\\layout\\activity_upload.xml"
     },
     {
         "merged": "D:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\res\\merged\\debug\\color_design_error.xml.flat",

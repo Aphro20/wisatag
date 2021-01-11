@@ -1579,6 +1579,9 @@ id edit_query
 id end
 id enterAlways
 id enterAlwaysCollapsed
+id et_alamat
+id et_deskripsi
+id et_nama
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1591,6 +1594,7 @@ id filter_chip
 id fitToContents
 id fixed
 id forever
+id foto
 id ghost_view
 id ghost_view_holder
 id glide_custom_view_target_tag
@@ -1606,17 +1610,16 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imgKuliner
 id imgMainData
+id imgWisata
 id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
 id ivAlamat
-id ivDescWisata
 id ivDeskripsi
 id ivNama
-id ivNamaWisata
+id kamera
 id labeled
 id largeLabel
 id left
@@ -1625,6 +1628,8 @@ id line1
 id line3
 id listMode
 id list_item
+id ln_1
+id maps
 id masked
 id message
 id middle
@@ -1719,6 +1724,7 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id spinner
 id split_action_bar
 id spread
 id spread_inside
@@ -1772,10 +1778,13 @@ id tvDate
 id tvDeskripsi
 id tvMainData
 id tvNama
+id tvupload
 id unchecked
 id uniform
 id unlabeled
 id up
+id upload
+id uploadwisata
 id useLogo
 id view_offset_helper
 id visible
@@ -1846,6 +1855,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_detail_wisata
 layout activity_main
+layout activity_upload
 layout activity_wisata
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -1976,6 +1986,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string google_maps_key
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string mtrl_badge_numberless_content_description

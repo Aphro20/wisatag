@@ -47,7 +47,7 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
         Glide.with(mContext)
                 .load("http://180.246.49.244:8000/" + data.getPath())
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
-                .into(holder.imgKuliner);
+                .into(holder.imgWisata);
 
         holder.tvNama.setText(data.getNama());
         holder.cvWisata.setOnClickListener(new View.OnClickListener() {
@@ -68,13 +68,13 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
 
         public TextView tvNama;
         public CardView cvWisata;
-        public ImageView imgKuliner;
+        public ImageView imgWisata;
 
         public ViewHolder(View itemView) {
             super(itemView);
             cvWisata = itemView.findViewById(R.id.cvWisata);
             tvNama = itemView.findViewById(R.id.tvNama);
-            imgKuliner = itemView.findViewById(R.id.imgKuliner);
+            imgWisata = itemView.findViewById(R.id.imgWisata);
         }
     }
 

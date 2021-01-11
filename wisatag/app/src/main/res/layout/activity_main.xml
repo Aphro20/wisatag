@@ -38,6 +38,12 @@
 
             </RelativeLayout>
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/uploadwisata"
+                android:text="Upload Wisata"/>
+
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>

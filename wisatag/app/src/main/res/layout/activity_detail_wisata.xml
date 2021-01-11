@@ -44,11 +44,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <ImageView
-                        android:id="@+id/imgKuliner"
+                    <fragment
+                        android:id="@+id/maps"
+                        android:name="com.google.android.gms.maps.SupportMapFragment"
                         android:layout_width="match_parent"
-                        android:layout_height="250dp"
-                        android:scaleType="fitXY" />
+                        android:layout_height="250dp" />
 
                 </LinearLayout>
 
@@ -93,7 +93,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"
                                 android:layout_marginStart="20dp"
-                                android:layout_toEndOf="@+id/ivNamaWisata"
+                                android:layout_toEndOf="@+id/ivNama"
                                 android:textSize="14sp" />
 
                         </RelativeLayout>
@@ -119,7 +119,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"
                                 android:layout_marginStart="20dp"
-                                android:layout_toEndOf="@+id/ivDescWisata"
+                                android:layout_toEndOf="@+id/ivAlamat"
                                 android:textSize="14sp" />
 
                         </RelativeLayout>
@@ -145,7 +145,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_centerInParent="true"
                                 android:layout_marginStart="20dp"
-                                android:layout_toEndOf="@+id/ivDescWisata"
+                                android:layout_toEndOf="@+id/ivDeskripsi"
                                 android:textSize="14sp" />
 
                         </RelativeLayout>
