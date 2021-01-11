@@ -42,7 +42,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/uploadwisata"
-                android:text="Upload Wisata"/>
+                android:text="Upload Wisata"
+                android:background="@color/colorPrimary"
+                android:theme="@style/AppTheme.AppBarOverlay"
+                />
 
         </LinearLayout>
 

@@ -1407,6 +1407,7 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow
 drawable ic_banner
+drawable ic_budaya
 drawable ic_cafe
 drawable ic_calendar_black_24dp
 drawable ic_categories
@@ -1421,6 +1422,7 @@ drawable ic_dtl_phone
 drawable ic_dtl_time
 drawable ic_dtl_wisata
 drawable ic_edit_black_24dp
+drawable ic_holiday
 drawable ic_hotel
 drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
