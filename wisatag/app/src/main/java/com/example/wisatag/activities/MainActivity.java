@@ -1,6 +1,7 @@
 package com.example.wisatag.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -29,13 +30,13 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements MainAdapter.onSelectData {
 
-    RecyclerView rvMainMenu;
-    LayoutMarginDecoration gridMargin;
-    ModelMain mdlMainMenu;
-    List<ModelMain> lsMainMenu = new ArrayList<>();
-    TextView tvToday;
-    String hariIni;
-    Button Upload_Wisata;
+    private RecyclerView rvMainMenu;
+    private LayoutMarginDecoration gridMargin;
+    private ModelMain mdlMainMenu;
+    private List<ModelMain> lsMainMenu = new ArrayList<>();
+    private TextView tvToday;
+    private String hariIni;
+    private Button Upload_Wisata;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

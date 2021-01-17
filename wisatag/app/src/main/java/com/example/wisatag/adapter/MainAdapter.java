@@ -14,10 +14,6 @@ import com.example.wisatag.model.ModelMain;
 
 import java.util.List;
 
-/**
- * Created by Azhar Rivaldi on 22-12-2019.
- */
-
 public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
 
     private List<ModelMain> items;
@@ -56,7 +52,6 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
         return items.size();
     }
 
-    //Class Holder
     class ViewHolder extends RecyclerView.ViewHolder {
 
         public CardView cvMainData;

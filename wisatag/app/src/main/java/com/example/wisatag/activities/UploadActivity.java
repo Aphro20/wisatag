@@ -1,10 +1,5 @@
 package com.example.wisatag.activities;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.core.app.ActivityCompat;
-
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -28,25 +23,20 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.androidnetworking.AndroidNetworking;
-import com.androidnetworking.common.Priority;
-import com.androidnetworking.error.ANError;
-import com.androidnetworking.interfaces.JSONObjectRequestListener;
-import com.androidnetworking.interfaces.UploadProgressListener;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.app.ActivityCompat;
+
 import com.example.wisatag.R;
-import com.example.wisatag.api.Api;
 import com.example.wisatag.api.ApiService;
 import com.example.wisatag.api.ApiUtils;
 import com.example.wisatag.model.ModelWisata;
-
-import org.json.JSONObject;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 import okhttp3.MediaType;
 import okhttp3.MultipartBody;
@@ -75,6 +65,7 @@ public class UploadActivity extends AppCompatActivity {
             "Kuliner",
             "Budaya"
     };
+    private Toolbar tbWisata;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,6 +88,12 @@ public class UploadActivity extends AppCompatActivity {
         progressDialog.setTitle("Mohon Tunggu");
         progressDialog.setCancelable(false);
         progressDialog.setMessage("Sedang mengupload data");
+
+        tbWisata = findViewById(R.id.tbUpload);
+        tbWisata.setTitle("Upload Wisata");
+        setSupportActionBar(tbWisata);
+        assert getSupportActionBar() != null;
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         final ArrayAdapter<String> dataAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, Kategori);
         spinner.setAdapter(dataAdapter);
@@ -180,30 +177,6 @@ public class UploadActivity extends AppCompatActivity {
         txtalamat = alamat.getText().toString();
         txtdeskripsi = deskripsi.getText().toString();
 
-//        AndroidNetworking.upload(Api.StoreWisata)
-//                .addMultipartFile("image",file)
-//                .addMultipartParameter("nama",txtnama)
-//                .addMultipartParameter("alamat",txtalamat)
-//                .addMultipartParameter("deskripsi",deskripsi)
-//                .addMultipartParameter("key","value")
-//                .setPriority(Priority.HIGH)
-//                .build()
-//                .setUploadProgressListener(new UploadProgressListener() {
-//                    @Override
-//                    public void onProgress(long bytesUploaded, long totalBytes) {
-//                        // do anything with progress
-//                    }
-//                })
-//                .getAsJSONObject(new JSONObjectRequestListener() {
-//                    @Override
-//                    public void onResponse(JSONObject response) {
-//                        // do anything with response
-//                    }
-//                    @Override
-//                    public void onError(ANError error) {
-//                        // handle error
-//                    }
-//                });
         RequestBody reqnama = RequestBody.create(MediaType.parse("text/plain"), txtnama);
         RequestBody reqalamat = RequestBody.create(MediaType.parse("text/plain"), txtalamat);
         RequestBody reqdeskripsi = RequestBody.create(MediaType.parse("text/plain"), txtdeskripsi);

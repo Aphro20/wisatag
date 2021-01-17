@@ -1,9 +1,5 @@
 package com.example.wisatag.model;
 
-/**
- * Created by Azhar Rivaldi on 22-12-2019.
- */
-
 public class ModelMain {
 
     private String txtName;

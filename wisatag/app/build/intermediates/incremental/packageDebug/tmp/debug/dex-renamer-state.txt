@@ -1,7 +1,7 @@
-#Mon Jan 11 10:30:40 ICT 2021
-base.0=D\:\\wisatag\\wisatag\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+#Mon Jan 18 03:08:43 SGT 2021
+base.0=D\:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=D\:\\wisatag\\wisatag\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.1=D\:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

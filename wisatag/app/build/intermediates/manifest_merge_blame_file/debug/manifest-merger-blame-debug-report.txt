@@ -6,66 +6,66 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml
+8-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml
+9-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml
 10    <!--
 11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
 12         Google Maps Android API v2, but you must specify either coarse or fine
 13         location permissions for the "MyLocation" functionality.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:9:5-67
-15-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:9:22-64
+15-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:9:5-67
+15-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:9:22-64
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:10:5-79
-16-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:10:22-76
+16-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:10:5-79
+16-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:10:22-76
 17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:11:5-81
-17-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:11:22-78
+17-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:11:5-81
+17-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:11:22-78
 18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-18-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:12:5-79
-18-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:12:22-76
+18-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:12:5-79
+18-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:12:22-76
 19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-19-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:13:5-81
-19-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:13:22-78
+19-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:13:5-81
+19-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:13:22-78
 20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-20-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:14:5-80
-20-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:14:22-77
+20-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:14:5-80
+20-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:14:22-77
 21    <uses-permission android:name="android.permission.CAMERA" />
-21-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:15:5-65
-21-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:15:22-62
+21-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:15:5-65
+21-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:15:22-62
 22
 23    <uses-feature
-23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\oneok\.gradle\wrapper\dists\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 24        android:glEsVersion="0x00020000"
-24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\oneok\.gradle\wrapper\dists\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
 25        android:required="true" />
-25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\oneok\.gradle\wrapper\dists\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 26
 27    <application
-27-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:17:5-49:19
+27-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:17:5-49:19
 28        android:allowBackup="true"
-28-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:18:9-35
+28-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:18:9-35
 29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-29-->[androidx.core:core:1.1.0] C:\Users\oneok\.gradle\wrapper\dists\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+29-->[androidx.core:core:1.1.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
 30        android:debuggable="true"
 31        android:icon="@mipmap/ic_launcher"
-31-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:19:9-43
+31-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:19:9-43
 32        android:label="@string/app_name"
-32-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:20:9-41
+32-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:20:9-41
 33        android:roundIcon="@mipmap/ic_launcher_round"
-33-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:21:9-54
+33-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:21:9-54
 34        android:supportsRtl="true"
-34-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:22:9-35
+34-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:22:9-35
 35        android:testOnly="true"
 36        android:theme="@style/AppTheme"
-36-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:23:9-40
+36-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:23:9-40
 37        android:usesCleartextTraffic="true" >
-37-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:24:9-44
+37-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:24:9-44
 38        <activity android:name="com.example.wisatag.activities.UploadActivity" />
-38-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:25:9-72
-38-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:25:19-60
+38-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:25:9-72
+38-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:25:19-60
 39        <!--
 40             The API key for Google Maps-based APIs is defined as a string resource.
 41             (See the file "res/values/google_maps_api.xml").
@@ -75,61 +75,61 @@
 45             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 46        -->
 47        <meta-data
-47-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:34:9-36:55
+47-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:34:9-36:55
 48            android:name="com.google.android.geo.API_KEY"
-48-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:35:13-58
+48-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:35:13-58
 49            android:value="@string/google_maps_key" />
-49-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:36:13-52
+49-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:36:13-52
 50
 51        <activity android:name="com.example.wisatag.activities.DetailWisataActivity" />
-51-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:38:9-69
-51-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:38:19-66
+51-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:38:9-69
+51-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:38:19-66
 52        <activity android:name="com.example.wisatag.activities.KulinerActivity" />
-52-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:39:9-64
-52-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:39:19-61
+52-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:39:9-64
+52-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:39:19-61
 53        <activity android:name="com.example.wisatag.activities.AlamActivity" />
-53-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:40:9-61
-53-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:40:19-58
+53-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:40:9-61
+53-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:40:19-58
 54        <activity android:name="com.example.wisatag.activities.BudayaActivity" />
-54-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:41:9-63
-54-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:41:19-60
+54-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:41:9-63
+54-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:41:19-60
 55        <activity android:name="com.example.wisatag.activities.MainActivity" >
-55-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:42:9-48:20
-55-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:42:19-58
+55-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:42:9-48:20
+55-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:42:19-58
 56            <intent-filter>
-56-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:43:13-47:29
+56-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:43:13-47:29
 57                <action android:name="android.intent.action.MAIN" />
-57-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:44:17-69
-57-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:44:25-66
+57-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:44:17-69
+57-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:44:25-66
 58
 59                <category android:name="android.intent.category.LAUNCHER" />
-59-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:46:17-77
-59-->D:\wisatag\wisatag\app\src\main\AndroidManifest.xml:46:27-74
+59-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:46:17-77
+59-->D:\Kuliah (ITS)\Semester 7\PPB\wisatag\wisatag\app\src\main\AndroidManifest.xml:46:27-74
 60            </intent-filter>
 61        </activity>
 62        <!-- Needs to be explicitly declared on P+ -->
 63        <uses-library
-63-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\oneok\.gradle\wrapper\dists\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+63-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
 64            android:name="org.apache.http.legacy"
-64-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\oneok\.gradle\wrapper\dists\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+64-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
 65            android:required="false" />
-65-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\oneok\.gradle\wrapper\dists\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+65-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
 66
 67        <activity
-67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\oneok\.gradle\wrapper\dists\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+67-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\oneok\.gradle\wrapper\dists\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+68-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 69            android:exported="false"
-69-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\oneok\.gradle\wrapper\dists\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+69-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\oneok\.gradle\wrapper\dists\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 71
 72        <meta-data
-72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\oneok\.gradle\wrapper\dists\caches\transforms-2\files-2.1\45bb34f73246e8db4cc65d892d8a8baa\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\d51230ab05ec8e5c89fc1ae8f0646f6c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 73            android:name="com.google.android.gms.version"
-73-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\oneok\.gradle\wrapper\dists\caches\transforms-2\files-2.1\45bb34f73246e8db4cc65d892d8a8baa\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+73-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\d51230ab05ec8e5c89fc1ae8f0646f6c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 74            android:value="@integer/google_play_services_version" />
-74-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\oneok\.gradle\wrapper\dists\caches\transforms-2\files-2.1\45bb34f73246e8db4cc65d892d8a8baa\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+74-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ismail\.gradle\caches\transforms-2\files-2.1\d51230ab05ec8e5c89fc1ae8f0646f6c\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 75    </application>
 76
 77</manifest>

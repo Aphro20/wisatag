@@ -1748,6 +1748,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tbDetailWisata
+id tbUpload
 id terrain
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
@@ -1780,7 +1781,6 @@ id tvDate
 id tvDeskripsi
 id tvMainData
 id tvNama
-id tvupload
 id unchecked
 id uniform
 id unlabeled
@@ -1875,7 +1875,6 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout header_main
 layout item_grid_main
 layout item_list
 layout mtrl_alert_dialog

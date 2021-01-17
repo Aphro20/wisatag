@@ -12,32 +12,31 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.androidnetworking.AndroidNetworking;
-import com.androidnetworking.common.Priority;
-import com.androidnetworking.error.ANError;
-import com.androidnetworking.interfaces.JSONObjectRequestListener;
 import com.example.wisatag.R;
 import com.example.wisatag.adapter.WisataAdapter;
-import com.example.wisatag.api.Api;
+import com.example.wisatag.api.ApiService;
+import com.example.wisatag.api.ApiUtils;
 import com.example.wisatag.decoration.LayoutMarginDecoration;
 import com.example.wisatag.model.ModelWisata;
 import com.example.wisatag.utils.Tools;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.util.ArrayList;
 import java.util.List;
 
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
 public class BudayaActivity extends AppCompatActivity implements WisataAdapter.onSelectData {
 
-    RecyclerView rvWisata;
-    LayoutMarginDecoration gridMargin;
-    WisataAdapter wisataAdapter;
-    ProgressDialog progressDialog;
-    List<ModelWisata> modelWisata = new ArrayList<>();
-    Toolbar tbWisata;
+    private RecyclerView rvWisata;
+    private LayoutMarginDecoration gridMargin;
+    private WisataAdapter wisataAdapter;
+    private ProgressDialog progressDialog;
+    private Toolbar tbWisata;
+    private List<ModelWisata> WisataList;
+    private ApiService mAPIService;
+    private String path;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +48,9 @@ public class BudayaActivity extends AppCompatActivity implements WisataAdapter.o
         setSupportActionBar(tbWisata);
         assert getSupportActionBar() != null;
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        mAPIService = ApiUtils.getAPIService();
+        WisataList = new ArrayList<>();
 
         progressDialog = new ProgressDialog(this);
         progressDialog.setTitle("Mohon Tunggu");
@@ -63,55 +65,37 @@ public class BudayaActivity extends AppCompatActivity implements WisataAdapter.o
         rvWisata.addItemDecoration(gridMargin);
         rvWisata.setHasFixedSize(true);
 
-        getWisata();
+        getWisataBudaya();
     }
 
-    private void getWisata() {
+    private void getWisataBudaya() {
+        path = "budaya";
         progressDialog.show();
-        AndroidNetworking.get(Api.WisataBudaya)
-                .setPriority(Priority.HIGH)
-                .build()
-                .getAsJSONObject(new JSONObjectRequestListener() {
-                    @Override
-                    public void onResponse(JSONObject response) {
-                        try {
-                            progressDialog.dismiss();
-                            JSONArray playerArray = response.getJSONArray("budaya");
-                            for (int i = 0; i < playerArray.length(); i++) {
-                                JSONObject temp = playerArray.getJSONObject(i);
-                                ModelWisata dataApi = new ModelWisata();
-                                dataApi.setId(temp.getInt("id"));
-                                dataApi.setNama(temp.getString("nama"));
-                                Log.d("Retrofit Get", "idnyaaaa" + temp.getString("nama"));
-                                dataApi.setAlamat(temp.getString("alamat"));
-                                dataApi.setLatitude(temp.getString("latitude"));
-                                dataApi.setLongitude(temp.getString("longitude"));
-                                dataApi.setDeskripsi(temp.getString("deskripsi"));
-                                dataApi.setKategori(temp.getString("kategori"));
-                                dataApi.setPath(temp.getString("path"));
-                                dataApi.setCreatedAt(temp.getString("created_at"));
-                                dataApi.setUpdatedAt(temp.getString("updated_at"));
-                                modelWisata.add(dataApi);
-                                showWisata();
-                            }
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                            Toast.makeText(BudayaActivity.this,
-                                    "Gagal menampilkan data!", Toast.LENGTH_SHORT).show();
-                        }
-                    }
 
-                    @Override
-                    public void onError(ANError anError) {
-                        progressDialog.dismiss();
-                        Toast.makeText(BudayaActivity.this,
-                                "Tidak ada jaringan internet!", Toast.LENGTH_SHORT).show();
-                    }
-                });
+        Call<List<ModelWisata>> PhotoCall = mAPIService.getWisata(
+                path
+        );
+        PhotoCall.enqueue(new Callback<List<ModelWisata>>() {
+            @Override
+            public void onResponse(Call<List<ModelWisata>> call, Response<List<ModelWisata>> response) {
+                progressDialog.dismiss();
+                WisataList = (List<ModelWisata>) response.body();
+                Log.d("Retrofit Get", "Jumlah Data : " +String.valueOf(WisataList.size()));
+                showWisata();
+            }
+
+            @Override
+            public void onFailure(Call<List<ModelWisata>> call, Throwable t) {
+                progressDialog.dismiss();
+                Toast.makeText(BudayaActivity.this,"Gagal menampilkan data!", Toast.LENGTH_SHORT).show();
+                Log.e("Retrofit Get", t.toString());
+            }
+
+        });
     }
 
     private void showWisata() {
-        wisataAdapter = new WisataAdapter(BudayaActivity.this, modelWisata, this);
+        wisataAdapter = new WisataAdapter(BudayaActivity.this, WisataList, this);
         rvWisata.setAdapter(wisataAdapter);
     }
 
