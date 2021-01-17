@@ -1,4 +1,4 @@
-#Mon Jan 18 03:08:43 SGT 2021
+#Mon Jan 18 05:57:15 SGT 2021
 base.0=D\:\\Kuliah (ITS)\\Semester 7\\PPB\\wisatag\\wisatag\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

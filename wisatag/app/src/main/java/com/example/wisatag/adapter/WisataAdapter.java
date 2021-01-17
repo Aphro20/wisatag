@@ -45,7 +45,7 @@ public class WisataAdapter extends RecyclerView.Adapter<WisataAdapter.ViewHolder
 
         //Get Image
         Glide.with(mContext)
-                .load("http://192.168.100.99:8000/" + data.getPath())
+                .load("https://api-ppb.herokuapp.com/" + data.getPath())
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .into(holder.imgWisata);
 
